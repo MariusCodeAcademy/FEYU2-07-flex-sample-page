@@ -140,9 +140,24 @@ img {
   border-radius: 4px;
   width: 100%;
 }
-
+/* flex container */
 .contactForm {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
+}
+/* flex item */
+.inputBlock {
+  /* flex-basis: 47%; */
+}
+
+.half {
+  flex-basis: 47%;
+}
+.full {
+  flex-basis: 100%;
+}
+
+.textarea {
+  resize: vertical;
 }
