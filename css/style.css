@@ -1,0 +1,42 @@
+/* Reset ==================== */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header =================== */
+
+.mainHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.logo span {
+  font-weight: normal;
+}
+
+.navLink {
+  padding: 10px 20px;
+  /* border: 1px solid #000; */
+}
+
+.mainHeader a {
+  letter-spacing: 4px;
+}
+
+.mainHeader a:hover {
+  background-color: rgb(189, 189, 189);
+}
