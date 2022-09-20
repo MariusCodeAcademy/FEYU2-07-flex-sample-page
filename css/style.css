@@ -7,6 +7,16 @@ a {
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  /* laikinai kol dirbam */
+  padding-bottom: 1000px;
+}
+
+/* Helper css =================== */
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Header =================== */
@@ -15,6 +25,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* dazniau buvo naudojamas anksciau */
+  /* position: fixed; */
+  /* width: 100%; */
+  background-color: white;
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 4px 11px 0px rgb(135 135 135);
 }
 
 .logo {
@@ -39,4 +56,22 @@ body {
 
 .mainHeader a:hover {
   background-color: rgb(189, 189, 189);
+}
+
+/* HERO =================== */
+
+.hero {
+  background-color: coral;
+  min-height: 100vh;
+  background: url('../img/architect.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.heroTitle {
+  color: white;
+  font-size: 40px;
+}
+
+.heroTitle span {
+  font-weight: normal;
 }
