@@ -98,6 +98,12 @@ img {
   padding: 40px 30px;
 }
 
+.hr {
+  height: 1px;
+  margin-bottom: 20px;
+  background-color: #a2c0be;
+}
+
 .projectsContainer {
   display: flex;
   flex-wrap: wrap;
